@@ -17,8 +17,8 @@ The project provides:
   - Stops after a specified maximum number of interactions or when the models converge according to a configurable threshold.
 - A web-based review interface (`review_opinions.py`) built with Flask to browse and audit the conversation history. This UI displays responses along with convergence metrics and allows users to expand each answer for full details.
 
-![Alt text]( run-discussion.png "Run Discussion CLI")
-![Alt text]( review-opinions.png "Review Opinions UI")
+![Run Discussion CLI](run-discussion.png "Run Discussion CLI")
+![Review Opinions UI](review-opinions.png "Review Opinions UI")
 
 ## Key Features
 
