@@ -38,16 +38,20 @@ The project provides:
 This project is managed with [Poetry](https://python-poetry.org/). To install the dependencies:
 
 # Clone the repository
+```
 git clone https://github.com/nestoru/peer-consensus.git
 cd peer-consensus
+```
 
 # Install dependencies using Poetry
+```
 poetry install
+```
 
 ## Configuration
 
 Create a `config.json` file in the project root (or point to your custom configuration file) with content similar to:
-
+```
 {
   "responses_folder_path": "responses",
   "convergenceThreshold": 90,
@@ -72,12 +76,14 @@ Create a `config.json` file in the project root (or point to your custom configu
     }
   ]
 }
+```
 
 ## Running a Discussion
 
 To start a discussion session, use the following command:
-
+```
 poetry run run-discussion --config config.json --prompt-title "CancerTreatmentResearch" --max-interactions 5 --research-prompt "a promising avenue for cancer treatment"
+```
 
 This command will:
 - Read the configuration file.
@@ -87,8 +93,9 @@ This command will:
 ## Reviewing the Discussion
 
 After the discussion completes, you can review the conversation by running:
-
+```
 poetry run review-opinions --session-folder <path_to_session_folder> --port 5000
+```
 
 This command launches a Flask-based web UI. The UI displays each model’s responses in reverse chronological order along with:
 - A preview (first two lines) of each response.
