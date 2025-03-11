@@ -5,7 +5,7 @@ Peer Consensus is an open-source Python project that implements a deterministic 
 "Opinion is All You Need: A Deterministic Proxy Framework for Mediated LLM Consensus"
 Published in [Placeholder Journal/Conference Name]
 
-Note: The research paper and the associated dataset details are available at [Insert URL or DOI here].
+Note: The research paper and the associated dataset details are available at https://osf.io/preprints/osf/q437w_v1.
 
 ## Overview
 
@@ -116,5 +116,5 @@ This project is released under the MIT License. By publicly disclosing this code
 
 ## Acknowledgements
 
-We thank all contributors and the broader research community for feedback and inspiration. This work is part of our ongoing research into the convergence of machine-generated opinions and has been peer-reviewed as part of [Placeholder Journal/Conference Name].
+We thank all contributors and the broader research community for feedback and inspiration. This work is part of our ongoing research into the convergence of machine-generated opinions. We plan to submit it for formal peer review at a suitable journal or conference in the near future and will update this README once a publication decision is reached.
 
